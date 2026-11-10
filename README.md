@@ -160,28 +160,11 @@ A neon-themed table tennis game built for Windows — a creative coding project 
 ---
 
 <div align="center">
-
-### `04` &nbsp; THE GITHUB ACTIVITY
-
-*The work behind the profile.*
-
-<br/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=builtbyahnaf&show_icons=true&hide_border=true&bg_color=080B16&title_color=8AB4F8&icon_color=79C0FF&text_color=C9D1D9&ring_color=5B9BDE&include_all_commits=true" alt="GitHub statistics" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=builtbyahnaf&layout=compact&hide_border=true&bg_color=080B16&title_color=8AB4F8&text_color=C9D1D9&langs_count=8" alt="Most used languages" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=builtbyahnaf&bg_color=080B16&color=8AB4F8&line=4F91D8&point=EAF3FF&area=true&area_color=16345A&hide_border=true" width="100%" alt="Contribution activity graph" />
-
-</div>
-
 ---
 
 <div align="center">
 
-### `05` &nbsp; BEYOND THE TERMINAL
+### `04` &nbsp; BEYOND THE TERMINAL
 
 A few things that make me, me.
 
