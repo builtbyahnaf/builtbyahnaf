@@ -42,21 +42,6 @@ I enjoy working where engineering meets creativity: designing interfaces, explor
 
 I care about more than making things work. I care about **how they're built, why they're built that way, and how much better they could become.**
 
-```cpp
-struct Developer {
-    string name = "Muhammad Tahmid Ahnaf";
-    string mindset = "Build. Learn. Refine. Repeat.";
-
-    vector<string> interests = {
-        "Software Engineering",
-        "Systems & Compiler Design",
-        "UI/UX & Visual Design",
-        "Problem Solving",
-        "Exploring Machine Learning"
-    };
-};
-```
-
 ---
 
 <div align="center">
