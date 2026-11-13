@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="46" viewBox="0 0 130 46" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif" role="img">
+<style></style>
+<defs><linearGradient id="pb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34528F"/><stop offset="1" stop-color="#17223F"/></linearGradient>
+<linearGradient id="pf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F1A35"/><stop offset="1" stop-color="#0A1226"/></linearGradient></defs>
+<rect x="4.5" y="4.5" width="122" height="38" rx="19.0" fill="url(#pf)" stroke="url(#pb)"/>
+<g transform="translate(24 15.0)"><rect width="16" height="16" rx="3.5" fill="#E8EEF9"/><text x="8" y="12.2" font-size="10.5" font-weight="700" fill="#0A1226" text-anchor="middle">in</text></g>
+<text x="52" y="27.6" font-size="13.5" font-weight="500" fill="#E8EEF9">LinkedIn</text>
+</svg>

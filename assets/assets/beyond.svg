@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="232" viewBox="0 0 800 232" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif" role="img">
+<style></style>
+<defs>
+  <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0F1A35"/><stop offset="0.55" stop-color="#0A1226"/><stop offset="1" stop-color="#070B14"/>
+  </linearGradient>
+  <linearGradient id="bbd" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#34528F"/><stop offset="0.5" stop-color="#1A2848"/><stop offset="1" stop-color="#121B33"/>
+  </linearGradient>
+  <linearGradient id="bhl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7FA8F5" stop-opacity="0"/><stop offset="0.5" stop-color="#7FA8F5" stop-opacity="0.65"/><stop offset="1" stop-color="#7FA8F5" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="bgl" cx="0" cy="0" r="1" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#4C7DE8" stop-opacity="0.16"/><stop offset="1" stop-color="#4C7DE8" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="4" y="4" width="792" height="224" rx="18" fill="url(#bbg)"/>
+<rect x="4" y="4" width="792" height="224" rx="18" fill="url(#bgl)"/>
+<rect x="4.5" y="4.5" width="791" height="223" rx="18" fill="none" stroke="url(#bbd)" stroke-width="1"/>
+<rect x="26" y="4" width="748" height="1" fill="url(#bhl)"/>
+<path transform="translate(46 61)" d="M0-5.5L1.7-1.7 5.5 0 1.7 1.7 0 5.5-1.7 1.7-5.5 0-1.7-1.7Z" fill="#7FA8F5" opacity="0.9"/>
+<text x="68" y="66" font-size="15" fill="#C9D5EC">Aesthetics matter. Engineering matters more.</text>
+<path transform="translate(46 101)" d="M0-5.5L1.7-1.7 5.5 0 1.7 1.7 0 5.5-1.7 1.7-5.5 0-1.7-1.7Z" fill="#7FA8F5" opacity="0.9"/>
+<text x="68" y="106" font-size="15" fill="#C9D5EC">Curious about the details most people overlook.</text>
+<path transform="translate(46 141)" d="M0-5.5L1.7-1.7 5.5 0 1.7 1.7 0 5.5-1.7 1.7-5.5 0-1.7-1.7Z" fill="#7FA8F5" opacity="0.9"/>
+<text x="68" y="146" font-size="15" fill="#C9D5EC">Anime, cats, art, and the occasional rabbit hole.</text>
+<path transform="translate(46 181)" d="M0-5.5L1.7-1.7 5.5 0 1.7 1.7 0 5.5-1.7 1.7-5.5 0-1.7-1.7Z" fill="#7FA8F5" opacity="0.9"/>
+<text x="68" y="186" font-size="15" fill="#C9D5EC">Always learning. Never quite finished.</text>
+<rect x="498" y="44" width="1" height="144" fill="#1B2A4B"/>
+<text x="528" y="92" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-size="52" fill="#7FA8F5" opacity="0.55">“</text>
+<text x="530" y="118" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#E8EEF9">Great things are built</text>
+<text x="530" y="148" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#E8EEF9">twice: first in the mind,</text>
+<text x="530" y="178" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#E8EEF9">then in reality.</text>
+</svg>

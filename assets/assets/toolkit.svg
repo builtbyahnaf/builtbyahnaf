@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif" role="img">
+<style></style>
+<defs>
+  <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0F1A35"/><stop offset="0.55" stop-color="#0A1226"/><stop offset="1" stop-color="#070B14"/>
+  </linearGradient>
+  <linearGradient id="tbd" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#34528F"/><stop offset="0.5" stop-color="#1A2848"/><stop offset="1" stop-color="#121B33"/>
+  </linearGradient>
+  <linearGradient id="thl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7FA8F5" stop-opacity="0"/><stop offset="0.5" stop-color="#7FA8F5" stop-opacity="0.65"/><stop offset="1" stop-color="#7FA8F5" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="tgl" cx="0" cy="0" r="1" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#4C7DE8" stop-opacity="0.16"/><stop offset="1" stop-color="#4C7DE8" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="4" y="4" width="792" height="192" rx="18" fill="url(#tbg)"/>
+<rect x="4.5" y="4.5" width="791" height="191" rx="18" fill="none" stroke="url(#tbd)" stroke-width="1"/>
+<rect x="26" y="4" width="748" height="1" fill="url(#thl)"/>
+<text x="40" y="60" font-size="13" fill="#8C99B5">Languages</text>
+<text x="190" y="61" font-size="17" fill="#E8EEF9"><tspan>C++</tspan><tspan dx="34">C</tspan><tspan dx="34">Java</tspan><tspan dx="34">Python</tspan></text>
+<text x="40" y="112" font-size="13" fill="#8C99B5">Design &amp; web</text>
+<text x="190" y="113" font-size="17" fill="#E8EEF9"><tspan>HTML</tspan><tspan dx="34">CSS</tspan><tspan dx="34">Figma</tspan></text>
+<text x="40" y="164" font-size="13" fill="#8C99B5">Tools</text>
+<text x="190" y="165" font-size="17" fill="#E8EEF9"><tspan>Git</tspan><tspan dx="34">GitHub</tspan><tspan dx="34">Android Studio</tspan><tspan dx="34">VS Code</tspan></text>
+<rect x="40" y="82" width="720" height="1" fill="#1B2A4B"/>
+<rect x="40" y="134" width="720" height="1" fill="#1B2A4B"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="272" viewBox="0 0 800 272" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif" role="img">
+<style>
+.l{font:400 16px -apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif;fill:#9DBCF7;opacity:0}
+.l1{opacity:1}
+.a{animation:cyc 12s ease-in-out infinite}
+.a2{animation-delay:4s}.a3{animation-delay:8s}
+@keyframes cyc{0%{opacity:0;transform:translateY(5px)}4%,30%{opacity:1;transform:translateY(0)}34%,100%{opacity:0;transform:translateY(-5px)}}
+.orbit{transform-origin:640px 136px;animation:spin 48s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.a,.orbit{animation:none}}
+</style>
+<defs>
+  <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0F1A35"/><stop offset="0.55" stop-color="#0A1226"/><stop offset="1" stop-color="#070B14"/>
+  </linearGradient>
+  <linearGradient id="hbd" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#34528F"/><stop offset="0.5" stop-color="#1A2848"/><stop offset="1" stop-color="#121B33"/>
+  </linearGradient>
+  <linearGradient id="hhl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7FA8F5" stop-opacity="0"/><stop offset="0.5" stop-color="#7FA8F5" stop-opacity="0.65"/><stop offset="1" stop-color="#7FA8F5" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="hgl" cx="0" cy="0" r="1" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#4C7DE8" stop-opacity="0.16"/><stop offset="1" stop-color="#4C7DE8" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<defs>
+  <clipPath id="clip"><rect x="4" y="4" width="792" height="264" rx="20"/></clipPath>
+  <linearGradient id="wm" x1="0" y1="0" x2="1" y2="0.4">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#A9C4F7"/>
+  </linearGradient>
+  <radialGradient id="aura" cx="640" cy="136" r="260" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#3C6BDB" stop-opacity="0.34"/><stop offset="0.55" stop-color="#2A4FA8" stop-opacity="0.10"/><stop offset="1" stop-color="#2A4FA8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="aura2" cx="40" cy="270" r="300" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#1B3E8A" stop-opacity="0.22"/><stop offset="1" stop-color="#1B3E8A" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7FA8F5" stop-opacity="0.55"/><stop offset="1" stop-color="#7FA8F5" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="4" y="4" width="792" height="264" rx="20" fill="url(#hbg)"/>
+<g clip-path="url(#clip)">
+  <rect width="800" height="272" fill="url(#aura)"/>
+  <rect width="800" height="272" fill="url(#aura2)"/>
+  <g fill="none" stroke="#7FA8F5" stroke-linecap="round">
+    <path d="M450 136H830M640 -14V286" stroke-width="1" opacity="0.07"/>
+    <circle cx="640" cy="136" r="200" stroke-width="1" opacity="0.06"/>
+    <circle cx="640" cy="136" r="160" stroke-width="1" opacity="0.09"/>
+    <circle cx="640" cy="136" r="122" stroke-width="1" opacity="0.20"/>
+    <path d="M756.84 142.12L761.83 142.38 M756.36 148.23L761.33 148.75 M755.56 154.30L760.50 155.09 M754.44 160.33L759.33 161.37 M753.01 166.28L757.84 167.58 M751.27 172.15L756.03 173.70 M749.23 177.93L753.90 179.72 M746.88 183.59L751.45 185.62 M744.25 189.12L748.70 191.39 M738.12 199.72L742.32 202.45 M734.65 204.77L738.70 207.71 M730.93 209.63L734.81 212.78 M726.95 214.29L730.66 217.63 M722.73 218.73L726.27 222.27 M718.29 222.95L721.63 226.66 M713.63 226.93L716.78 230.81 M708.77 230.65L711.71 234.70 M703.72 234.12L706.45 238.32 M693.12 240.25L695.39 244.70 M687.59 242.88L689.62 247.45 M681.93 245.23L683.72 249.90 M676.15 247.27L677.70 252.03 M670.28 249.01L671.58 253.84 M664.33 250.44L665.37 255.33 M658.30 251.56L659.09 256.50 M652.23 252.36L652.75 257.33 M646.12 252.84L646.38 257.83 M633.88 252.84L633.62 257.83 M627.77 252.36L627.25 257.33 M621.70 251.56L620.91 256.50 M615.67 250.44L614.63 255.33 M609.72 249.01L608.42 253.84 M603.85 247.27L602.30 252.03 M598.07 245.23L596.28 249.90 M592.41 242.88L590.38 247.45 M586.88 240.25L584.61 244.70 M576.28 234.12L573.55 238.32 M571.23 230.65L568.29 234.70 M566.37 226.93L563.22 230.81 M561.71 222.95L558.37 226.66 M557.27 218.73L553.73 222.27 M553.05 214.29L549.34 217.63 M549.07 209.63L545.19 212.78 M545.35 204.77L541.30 207.71 M541.88 199.72L537.68 202.45 M535.75 189.12L531.30 191.39 M533.12 183.59L528.55 185.62 M530.77 177.93L526.10 179.72 M528.73 172.15L523.97 173.70 M526.99 166.28L522.16 167.58 M525.56 160.33L520.67 161.37 M524.44 154.30L519.50 155.09 M523.64 148.23L518.67 148.75 M523.16 142.12L518.17 142.38 M523.16 129.88L518.17 129.62 M523.64 123.77L518.67 123.25 M524.44 117.70L519.50 116.91 M525.56 111.67L520.67 110.63 M526.99 105.72L522.16 104.42 M528.73 99.85L523.97 98.30 M530.77 94.07L526.10 92.28 M533.12 88.41L528.55 86.38 M535.75 82.88L531.30 80.61 M541.88 72.28L537.68 69.55 M545.35 67.23L541.30 64.29 M549.07 62.37L545.19 59.22 M553.05 57.71L549.34 54.37 M557.27 53.27L553.73 49.73 M561.71 49.05L558.37 45.34 M566.37 45.07L563.22 41.19 M571.23 41.35L568.29 37.30 M576.28 37.88L573.55 33.68 M586.88 31.75L584.61 27.30 M592.41 29.12L590.38 24.55 M598.07 26.77L596.28 22.10 M603.85 24.73L602.30 19.97 M609.72 22.99L608.42 18.16 M615.67 21.56L614.63 16.67 M621.70 20.44L620.91 15.50 M627.77 19.64L627.25 14.67 M633.88 19.16L633.62 14.17 M646.12 19.16L646.38 14.17 M652.23 19.64L652.75 14.67 M658.30 20.44L659.09 15.50 M664.33 21.56L665.37 16.67 M670.28 22.99L671.58 18.16 M676.15 24.73L677.70 19.97 M681.93 26.77L683.72 22.10 M687.59 29.12L689.62 24.55 M693.12 31.75L695.39 27.30 M703.72 37.88L706.45 33.68 M708.77 41.35L711.71 37.30 M713.63 45.07L716.78 41.19 M718.29 49.05L721.63 45.34 M722.73 53.27L726.27 49.73 M726.95 57.71L730.66 54.37 M730.93 62.37L734.81 59.22 M734.65 67.23L738.70 64.29 M738.12 72.28L742.32 69.55 M744.25 82.88L748.70 80.61 M746.88 88.41L751.45 86.38 M749.23 94.07L753.90 92.28 M751.27 99.85L756.03 98.30 M753.01 105.72L757.84 104.42 M754.44 111.67L759.33 110.63 M755.56 117.70L760.50 116.91 M756.36 123.77L761.33 123.25 M756.84 129.88L761.83 129.62" stroke-width="1" opacity="0.22"/>
+    <path d="M751.00 136.00L762.00 136.00 M736.13 191.50L745.66 197.00 M695.50 232.13L701.00 241.66 M640.00 247.00L640.00 258.00 M584.50 232.13L579.00 241.66 M543.87 191.50L534.34 197.00 M529.00 136.00L518.00 136.00 M543.87 80.50L534.34 75.00 M584.50 39.87L579.00 30.34 M640.00 25.00L640.00 14.00 M695.50 39.87L701.00 30.34 M736.13 80.50L745.66 75.00" stroke-width="1.4" opacity="0.5"/>
+    <circle cx="640" cy="136" r="92" stroke-width="1" opacity="0.10"/>
+    <circle cx="640" cy="136" r="64" stroke-width="1" opacity="0.28"/>
+    <circle cx="640" cy="136" r="30" stroke-width="1" opacity="0.18" stroke-dasharray="2 5"/>
+  </g>
+  <circle cx="640" cy="136" r="2.6" fill="#7FA8F5"/>
+  <g class="orbit">
+    <circle cx="704" cy="136" r="9" fill="#7FA8F5" opacity="0.18"/>
+    <circle cx="704" cy="136" r="3.6" fill="#CFE0FF"/>
+  </g>
+</g>
+<rect x="4.5" y="4.5" width="791" height="263" rx="20" fill="none" stroke="url(#hbd)" stroke-width="1"/>
+<rect x="28" y="4" width="744" height="1" fill="url(#hhl)"/>
+
+<text x="54" y="74" font-size="14" fill="#8C99B5" letter-spacing="0.6">Muhammad Tahmid Ahnaf</text>
+<text x="48" y="158" font-size="94" font-weight="300" fill="url(#wm)" letter-spacing="-2.5">ahnaf</text>
+
+<path d="M54 181.5l5 4.5-5 4.5" fill="none" stroke="#7FA8F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="l l1 a" x="72" y="192">Assalamu Alaikum — may peace be upon you.</text>
+<text class="l a a2" x="72" y="192">Building systems. Exploring possibilities.</text>
+<text class="l a a3" x="72" y="192">Code with purpose. Design with intention.</text>
+
+<rect x="54" y="222" width="340" height="1" fill="url(#rule)"/>
+<text x="54" y="247" font-size="13" fill="#8C99B5">CSE student at KUET. Software developer and UI enthusiast.</text>
+</svg>
