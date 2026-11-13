@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif" role="img">
+<style>
+.rot{transform-origin:640px 150px}
+.cw{animation:spin 18s linear infinite} .ccw{animation:spinr 30s linear infinite}
+.cw2{animation:spin 58s linear infinite} .tk{animation:spin 140s linear infinite} .sw{animation:spin 11s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}} @keyframes spinr{to{transform:rotate(-360deg)}}
+.ping{transform-origin:640px 150px;animation:ping 4s ease-out infinite}
+@keyframes ping{0%{transform:scale(.3);opacity:.7}100%{transform:scale(7);opacity:0}}
+.br{animation:br 6s ease-in-out infinite alternate} @keyframes br{from{opacity:.10}to{opacity:.34}}
+.l{font:400 16px -apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif;fill:#A9C2F8;opacity:0} .l1{opacity:1}
+.a{animation:cyc 12s ease-in-out infinite} .a2{animation-delay:4s} .a3{animation-delay:8s}
+@keyframes cyc{0%{opacity:0;transform:translateY(5px)}4%,30%{opacity:1;transform:translateY(0)}34%,100%{opacity:0;transform:translateY(-5px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<linearGradient id="wm" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#B7CDFA"/><stop offset="1" stop-color="#B9A8FC"/></linearGradient>
+<radialGradient id="aura" cx="640" cy="150" r="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7FA8F5" stop-opacity="0.26"/><stop offset="0.5" stop-color="#A18CFA" stop-opacity="0.091"/><stop offset="0.85" stop-color="#A18CFA" stop-opacity="0.01"/><stop offset="1" stop-color="#A18CFA" stop-opacity="0"/></radialGradient>
+<linearGradient id="hr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7FA8F5" stop-opacity="0.75"/><stop offset="0.35" stop-color="#A18CFA" stop-opacity="0.35"/><stop offset="1" stop-color="#A18CFA" stop-opacity="0"/></linearGradient>
+</defs>
+<circle cx="640" cy="150" r="150" fill="url(#aura)"/>
+<g fill="none" stroke="#7FA8F5" stroke-linecap="round">
+  <path d="M480 150H800M640 10V290" stroke-width="1" opacity="0.08"/>
+  <circle cx="640" cy="150" r="140" stroke-width="1" opacity="0.16" stroke-dasharray="1 7"/>
+  <circle cx="640" cy="150" r="112" stroke-width="1" opacity="0.2"/>
+  <circle class="br" cx="640" cy="150" r="84" stroke-width="1" stroke="#A18CFA"/>
+  <circle cx="640" cy="150" r="52" stroke-width="1" opacity="0.28"/>
+  <circle cx="640" cy="150" r="24" stroke-width="1" opacity="0.2" stroke-dasharray="2 5"/>
+</g>
+<g class="rot tk" fill="none" stroke="#7FA8F5" stroke-linecap="round">
+  <path d="M746.85 155.60L751.85 155.86 M746.41 161.18L751.39 161.71 M745.68 166.74L750.62 167.52 M744.66 172.25L749.55 173.29 M743.35 177.69L748.18 178.99 M741.76 183.06L746.52 184.61 M739.89 188.35L744.56 190.14 M737.75 193.52L742.32 195.55 M735.34 198.58L739.79 200.85 M729.74 208.28L733.93 211.00 M726.56 212.89L730.61 215.83 M723.15 217.34L727.04 220.48 M719.52 221.60L723.23 224.94 M715.66 225.66L719.20 229.20 M711.60 229.52L714.94 233.23 M707.34 233.15L710.48 237.04 M702.89 236.56L705.83 240.61 M698.28 239.74L701.00 243.93 M688.58 245.34L690.85 249.79 M683.52 247.75L685.55 252.32 M678.35 249.89L680.14 254.56 M673.06 251.76L674.61 256.52 M667.69 253.35L668.99 258.18 M662.25 254.66L663.29 259.55 M656.74 255.68L657.52 260.62 M651.18 256.41L651.71 261.39 M645.60 256.85L645.86 261.85 M634.40 256.85L634.14 261.85 M628.82 256.41L628.29 261.39 M623.26 255.68L622.48 260.62 M617.75 254.66L616.71 259.55 M612.31 253.35L611.01 258.18 M606.94 251.76L605.39 256.52 M601.65 249.89L599.86 254.56 M596.48 247.75L594.45 252.32 M591.42 245.34L589.15 249.79 M581.72 239.74L579.00 243.93 M577.11 236.56L574.17 240.61 M572.66 233.15L569.52 237.04 M568.40 229.52L565.06 233.23 M564.34 225.66L560.80 229.20 M560.48 221.60L556.77 224.94 M556.85 217.34L552.96 220.48 M553.44 212.89L549.39 215.83 M550.26 208.28L546.07 211.00 M544.66 198.58L540.21 200.85 M542.25 193.52L537.68 195.55 M540.11 188.35L535.44 190.14 M538.24 183.06L533.48 184.61 M536.65 177.69L531.82 178.99 M535.34 172.25L530.45 173.29 M534.32 166.74L529.38 167.52 M533.59 161.18L528.61 161.71 M533.15 155.60L528.15 155.86 M533.15 144.40L528.15 144.14 M533.59 138.82L528.61 138.29 M534.32 133.26L529.38 132.48 M535.34 127.75L530.45 126.71 M536.65 122.31L531.82 121.01 M538.24 116.94L533.48 115.39 M540.11 111.65L535.44 109.86 M542.25 106.48L537.68 104.45 M544.66 101.42L540.21 99.15 M550.26 91.72L546.07 89.00 M553.44 87.11L549.39 84.17 M556.85 82.66L552.96 79.52 M560.48 78.40L556.77 75.06 M564.34 74.34L560.80 70.80 M568.40 70.48L565.06 66.77 M572.66 66.85L569.52 62.96 M577.11 63.44L574.17 59.39 M581.72 60.26L579.00 56.07 M591.42 54.66L589.15 50.21 M596.48 52.25L594.45 47.68 M601.65 50.11L599.86 45.44 M606.94 48.24L605.39 43.48 M612.31 46.65L611.01 41.82 M617.75 45.34L616.71 40.45 M623.26 44.32L622.48 39.38 M628.82 43.59L628.29 38.61 M634.40 43.15L634.14 38.15 M645.60 43.15L645.86 38.15 M651.18 43.59L651.71 38.61 M656.74 44.32L657.52 39.38 M662.25 45.34L663.29 40.45 M667.69 46.65L668.99 41.82 M673.06 48.24L674.61 43.48 M678.35 50.11L680.14 45.44 M683.52 52.25L685.55 47.68 M688.58 54.66L690.85 50.21 M698.28 60.26L701.00 56.07 M702.89 63.44L705.83 59.39 M707.34 66.85L710.48 62.96 M711.60 70.48L714.94 66.77 M715.66 74.34L719.20 70.80 M719.52 78.40L723.23 75.06 M723.15 82.66L727.04 79.52 M726.56 87.11L730.61 84.17 M729.74 91.72L733.93 89.00 M735.34 101.42L739.79 99.15 M737.75 106.48L742.32 104.45 M739.89 111.65L744.56 109.86 M741.76 116.94L746.52 115.39 M743.35 122.31L748.18 121.01 M744.66 127.75L749.55 126.71 M745.68 133.26L750.62 132.48 M746.41 138.82L751.39 138.29 M746.85 144.40L751.85 144.14" stroke-width="1" opacity="0.26"/><path d="M741.00 150.00L752.00 150.00 M727.47 200.50L736.99 206.00 M690.50 237.47L696.00 246.99 M640.00 251.00L640.00 262.00 M589.50 237.47L584.00 246.99 M552.53 200.50L543.01 206.00 M539.00 150.00L528.00 150.00 M552.53 99.50L543.01 94.00 M589.50 62.53L584.00 53.01 M640.00 49.00L640.00 38.00 M690.50 62.53L696.00 53.01 M727.47 99.50L736.99 94.00" stroke-width="1.4" opacity="0.6"/>
+</g>
+<g class="rot sw"><path d="M640 150L751.85 144.14A112 112 0 0 1 752.00 150.00Z" fill="#7FA8F5" opacity="0.170"/><path d="M640 150L751.39 138.29A112 112 0 0 1 751.85 144.14Z" fill="#7FA8F5" opacity="0.157"/><path d="M640 150L750.62 132.48A112 112 0 0 1 751.39 138.29Z" fill="#7FA8F5" opacity="0.144"/><path d="M640 150L749.55 126.71A112 112 0 0 1 750.62 132.48Z" fill="#7FA8F5" opacity="0.132"/><path d="M640 150L748.18 121.01A112 112 0 0 1 749.55 126.71Z" fill="#7FA8F5" opacity="0.121"/><path d="M640 150L746.52 115.39A112 112 0 0 1 748.18 121.01Z" fill="#7FA8F5" opacity="0.110"/><path d="M640 150L744.56 109.86A112 112 0 0 1 746.52 115.39Z" fill="#7FA8F5" opacity="0.100"/><path d="M640 150L742.32 104.45A112 112 0 0 1 744.56 109.86Z" fill="#7FA8F5" opacity="0.090"/><path d="M640 150L739.79 99.15A112 112 0 0 1 742.32 104.45Z" fill="#7FA8F5" opacity="0.081"/><path d="M640 150L736.99 94.00A112 112 0 0 1 739.79 99.15Z" fill="#7FA8F5" opacity="0.072"/><path d="M640 150L733.93 89.00A112 112 0 0 1 736.99 94.00Z" fill="#7FA8F5" opacity="0.064"/><path d="M640 150L730.61 84.17A112 112 0 0 1 733.93 89.00Z" fill="#7FA8F5" opacity="0.057"/><path d="M640 150L727.04 79.52A112 112 0 0 1 730.61 84.17Z" fill="#7FA8F5" opacity="0.050"/><path d="M640 150L723.23 75.06A112 112 0 0 1 727.04 79.52Z" fill="#7FA8F5" opacity="0.043"/><path d="M640 150L719.20 70.80A112 112 0 0 1 723.23 75.06Z" fill="#7FA8F5" opacity="0.037"/><path d="M640 150L714.94 66.77A112 112 0 0 1 719.20 70.80Z" fill="#7FA8F5" opacity="0.031"/><path d="M640 150L710.48 62.96A112 112 0 0 1 714.94 66.77Z" fill="#7FA8F5" opacity="0.026"/><path d="M640 150L705.83 59.39A112 112 0 0 1 710.48 62.96Z" fill="#7FA8F5" opacity="0.022"/><path d="M640 150L701.00 56.07A112 112 0 0 1 705.83 59.39Z" fill="#7FA8F5" opacity="0.018"/><path d="M640 150L696.00 53.01A112 112 0 0 1 701.00 56.07Z" fill="#7FA8F5" opacity="0.014"/><path d="M640 150L690.85 50.21A112 112 0 0 1 696.00 53.01Z" fill="#7FA8F5" opacity="0.011"/><path d="M640 150L685.55 47.68A112 112 0 0 1 690.85 50.21Z" fill="#7FA8F5" opacity="0.008"/><path d="M640 150L680.14 45.44A112 112 0 0 1 685.55 47.68Z" fill="#7FA8F5" opacity="0.006"/><path d="M640 150L674.61 43.48A112 112 0 0 1 680.14 45.44Z" fill="#7FA8F5" opacity="0.004"/><path d="M640 150L668.99 41.82A112 112 0 0 1 674.61 43.48Z" fill="#7FA8F5" opacity="0.002"/><path d="M640 150L663.29 40.45A112 112 0 0 1 668.99 41.82Z" fill="#7FA8F5" opacity="0.001"/><path d="M640 150L657.52 39.38A112 112 0 0 1 663.29 40.45Z" fill="#7FA8F5" opacity="0.001"/><path d="M640 150L651.71 38.61A112 112 0 0 1 657.52 39.38Z" fill="#7FA8F5" opacity="0.000"/></g>
+<circle class="ping" cx="640" cy="150" r="6" fill="none" stroke="#7FA8F5" stroke-width="1.2"/>
+<circle cx="640" cy="150" r="2.8" fill="#7FA8F5"/>
+<g class="rot cw" fill="none">
+  <path d="M692 150A52 52 0 0 0 674.79 111.36" stroke="#7FA8F5" stroke-width="1.6" stroke-linecap="round" opacity="0.28"/>
+  <path d="M692 150A52 52 0 0 0 688.86 132.21" stroke="#7FA8F5" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="692" cy="150" r="8" fill="#7FA8F5" opacity="0.2"/><circle cx="692" cy="150" r="3.4" fill="#7FA8F5"/>
+</g>
+<g class="rot ccw" fill="none">
+  <path d="M724 150A84 84 0 0 1 698.35 210.42" stroke="#A18CFA" stroke-width="1.6" stroke-linecap="round" opacity="0.28"/>
+  <path d="M724 150A84 84 0 0 1 718.93 178.73" stroke="#A18CFA" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="724" cy="150" r="8" fill="#A18CFA" opacity="0.2"/><circle cx="724" cy="150" r="3.4" fill="#A18CFA"/>
+</g>
+<g class="rot cw2"><circle cx="780" cy="150" r="2.8" fill="#7FA8F5" opacity="0.85"/></g>
+
+<text x="6" y="92" font-size="14" fill="#8C99B5" letter-spacing="0.6">Muhammad Tahmid Ahnaf</text>
+<text x="0" y="176" font-size="96" font-weight="300" fill="url(#wm)" letter-spacing="-2.5">ahnaf</text>
+<path d="M6 204.5l5 4.5-5 4.5" fill="none" stroke="#7FA8F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="l l1 a" x="24" y="215">Assalamu Alaikum — may peace be upon you.</text>
+<text class="l a a2" x="24" y="215">Building systems. Exploring possibilities.</text>
+<text class="l a a3" x="24" y="215">Code with purpose. Design with intention.</text>
+<rect x="6" y="244" width="360" height="1" fill="url(#hr)"/>
+<text x="6" y="269" font-size="13" fill="#8C99B5">CSE student at KUET. Software developer and UI enthusiast.</text>
+</svg>

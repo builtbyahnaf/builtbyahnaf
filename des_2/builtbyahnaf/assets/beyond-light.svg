@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="214" viewBox="0 0 800 214" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif" role="img">
+<style>.st{transform-box:fill-box;transform-origin:center;animation:tw 4s ease-in-out infinite}
+@keyframes tw{0%,100%{transform:scale(.7) rotate(0);opacity:.55}50%{transform:scale(1.2) rotate(45deg);opacity:1}}
+.q{animation:qf 6s ease-in-out infinite alternate}@keyframes qf{from{opacity:.35}to{opacity:.8}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="hr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2F5FD0" stop-opacity="0.75"/><stop offset="0.35" stop-color="#6B4FE0" stop-opacity="0.35"/><stop offset="1" stop-color="#6B4FE0" stop-opacity="0"/></linearGradient></defs>
+<g transform="translate(12 49)"><path class="st" style="animation-delay:0.0s" d="M0-6L1.9-1.9 6 0 1.9 1.9 0 6-1.9 1.9-6 0-1.9-1.9Z" fill="#2F5FD0"/></g>
+<text x="34" y="54" font-size="15" fill="#0F1B33" opacity="0.88">Aesthetics matter. Engineering matters more.</text>
+<g transform="translate(12 91)"><path class="st" style="animation-delay:0.9s" d="M0-6L1.9-1.9 6 0 1.9 1.9 0 6-1.9 1.9-6 0-1.9-1.9Z" fill="#6B4FE0"/></g>
+<text x="34" y="96" font-size="15" fill="#0F1B33" opacity="0.88">Curious about the details most people overlook.</text>
+<g transform="translate(12 133)"><path class="st" style="animation-delay:1.8s" d="M0-6L1.9-1.9 6 0 1.9 1.9 0 6-1.9 1.9-6 0-1.9-1.9Z" fill="#2F5FD0"/></g>
+<text x="34" y="138" font-size="15" fill="#0F1B33" opacity="0.88">Anime, cats, art, and the occasional rabbit hole.</text>
+<g transform="translate(12 175)"><path class="st" style="animation-delay:2.7s" d="M0-6L1.9-1.9 6 0 1.9 1.9 0 6-1.9 1.9-6 0-1.9-1.9Z" fill="#6B4FE0"/></g>
+<text x="34" y="180" font-size="15" fill="#0F1B33" opacity="0.88">Always learning. Never quite finished.</text>
+<rect x="478" y="34" width="1" height="146" fill="#CBD5E8"/>
+<text class="q" x="510" y="92" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-size="56" fill="#6B4FE0">“</text>
+<text x="512" y="120" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#0F1B33">Great things are built</text>
+<text x="512" y="150" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#0F1B33">twice: first in the mind,</text>
+<text x="512" y="180" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#0F1B33">then in reality.</text>
+</svg>

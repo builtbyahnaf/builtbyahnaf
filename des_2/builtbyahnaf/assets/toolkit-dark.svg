@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="176" viewBox="0 0 800 176" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Roboto, Arial, sans-serif" role="img">
+<style>.sh{animation:sh 7s linear infinite}@keyframes sh{0%{transform:translateX(-160px)}100%{transform:translateX(820px)}}
+.s1{animation-delay:-1.5s}.s2{animation-delay:-3s}.s3{animation-delay:-4.5s}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="hr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7FA8F5" stop-opacity="0.75"/><stop offset="0.35" stop-color="#A18CFA" stop-opacity="0.35"/><stop offset="1" stop-color="#A18CFA" stop-opacity="0"/></linearGradient>
+<linearGradient id="sg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7FA8F5" stop-opacity="0"/><stop offset="0.7" stop-color="#7FA8F5" stop-opacity="0.9"/><stop offset="1" stop-color="#A18CFA" stop-opacity="0"/></linearGradient></defs>
+<rect x="4" y="60" width="792" height="1" fill="#2A3858" opacity="0.8"/>
+<rect class="sh s1" x="0" y="59.5" width="160" height="2" fill="url(#sg)"/>
+<rect x="4" y="114" width="792" height="1" fill="#2A3858" opacity="0.8"/>
+<rect class="sh s2" x="0" y="113.5" width="160" height="2" fill="url(#sg)"/>
+<rect x="4" y="168" width="792" height="1" fill="url(#hr)"/>
+<rect class="sh s3" x="0" y="167.5" width="160" height="2" fill="url(#sg)"/>
+<text x="4" y="39" font-size="13" fill="#8C99B5">Languages</text>
+<text x="176" y="40" font-size="17" fill="#E8EEF9"><tspan>C++</tspan><tspan dx="34">C</tspan><tspan dx="34">Java</tspan><tspan dx="34">Python</tspan></text>
+<text x="4" y="93" font-size="13" fill="#8C99B5">Design &amp; web</text>
+<text x="176" y="94" font-size="17" fill="#E8EEF9"><tspan>HTML</tspan><tspan dx="34">CSS</tspan><tspan dx="34">Figma</tspan></text>
+<text x="4" y="147" font-size="13" fill="#8C99B5">Tools</text>
+<text x="176" y="148" font-size="17" fill="#E8EEF9"><tspan>Git</tspan><tspan dx="34">GitHub</tspan><tspan dx="34">Android Studio</tspan><tspan dx="34">VS Code</tspan></text>
+</svg>
