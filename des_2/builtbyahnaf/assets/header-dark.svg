@@ -43,12 +43,12 @@
 </g>
 <g class="rot cw2"><circle cx="780" cy="150" r="2.8" fill="#7FA8F5" opacity="0.85"/></g>
 
-<text x="6" y="92" font-size="14" fill="#8C99B5" letter-spacing="0.6">Muhammad Tahmid Ahnaf</text>
-<text x="0" y="176" font-size="96" font-weight="300" fill="url(#wm)" letter-spacing="-2.5">ahnaf</text>
+<text x="6" y="92" font-size="14" fill="#8C99B5" letter-spacing="0.6">MUHAMMAD TAHMID</text>
+<text x="0" y="176" font-size="96" font-weight="300" fill="url(#wm)" letter-spacing="-2.5">AHNAF</text>
 <path d="M6 204.5l5 4.5-5 4.5" fill="none" stroke="#7FA8F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text class="l l1 a" x="24" y="215">Assalamu Alaikum — may peace be upon you.</text>
+<text class="l l1 a" x="24" y="215">Assalamu Alaikum (May peace be upon you)</text>
 <text class="l a a2" x="24" y="215">Building systems. Exploring possibilities.</text>
-<text class="l a a3" x="24" y="215">Code with purpose. Design with intention.</text>
+
 <rect x="6" y="244" width="360" height="1" fill="url(#hr)"/>
 <text x="6" y="269" font-size="13" fill="#8C99B5">CSE student at KUET. Software developer and UI enthusiast.</text>
 </svg>
