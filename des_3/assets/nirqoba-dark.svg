@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img">
+<style>.fl{stroke-dasharray:3 5;animation:fl 1.4s linear infinite}@keyframes fl{to{stroke-dashoffset:-16}}
+.n{transform-box:fill-box;transform-origin:center;animation:np 4s ease-in-out infinite}
+@keyframes np{0%,100%{transform:scale(1);opacity:.5}18%{transform:scale(1.7);opacity:1}40%{transform:scale(1);opacity:.7}}
+.hl{transform-box:fill-box;transform-origin:center;animation:hl 4s ease-out infinite}
+@keyframes hl{0%{transform:scale(.6);opacity:.6}60%,100%{transform:scale(3);opacity:0}}
+.rot{transform-origin:400px 150px}.r1{animation:spin 90s linear infinite}.r2{animation:spinr 120s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes spinr{to{transform:rotate(-360deg)}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><radialGradient id="aura" cx="400" cy="150" r="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7FA8F5" stop-opacity="0.208"/><stop offset="0.6" stop-color="#A18CFA" stop-opacity="0.04"/><stop offset="1" stop-color="#A18CFA" stop-opacity="0"/></radialGradient></defs>
+<circle cx="400" cy="150" r="150" fill="url(#aura)"/>
+<g fill="none" stroke="#7FA8F5"><circle class="rot r1" cx="400" cy="150" r="140" stroke-dasharray="1 7" opacity="0.2"/><circle class="rot r2" cx="400" cy="150" r="100" stroke-dasharray="2 9" opacity="0.18"/><circle cx="400" cy="150" r="60" opacity="0.1"/></g>
+<g fill="none" stroke="#7FA8F5" stroke-width="1.2" opacity="0.55"><path class="fl" d="M400 52L290 116"/><path class="fl" d="M400 52L510 116"/><path class="fl" d="M290 116L230 180"/><path class="fl" d="M290 116L350 180"/><path class="fl" d="M510 116L450 180"/><path class="fl" d="M510 116L570 180"/><path class="fl" d="M230 180L200 244"/><path class="fl" d="M230 180L260 244"/><path class="fl" d="M350 180L320 244"/><path class="fl" d="M350 180L380 244"/><path class="fl" d="M450 180L420 244"/><path class="fl" d="M450 180L480 244"/><path class="fl" d="M570 180L540 244"/><path class="fl" d="M570 180L600 244"/></g>
+<circle class="hl" cx="400" cy="52" r="8" fill="none" stroke="#7FA8F5"/><circle cx="400" cy="52" r="5" fill="#7FA8F5"/>
+<circle class="n" style="animation-delay:0.5s" cx="290" cy="116" r="4.6" fill="none" stroke="#7FA8F5" stroke-width="1.6"/>
+<circle class="n" style="animation-delay:0.5s" cx="510" cy="116" r="4.6" fill="none" stroke="#7FA8F5" stroke-width="1.6"/>
+<circle class="n" style="animation-delay:1.0s" cx="230" cy="180" r="4.6" fill="none" stroke="#A18CFA" stroke-width="1.6"/>
+<circle class="n" style="animation-delay:1.0s" cx="350" cy="180" r="4.6" fill="none" stroke="#A18CFA" stroke-width="1.6"/>
+<circle class="n" style="animation-delay:1.0s" cx="450" cy="180" r="4.6" fill="none" stroke="#A18CFA" stroke-width="1.6"/>
+<circle class="n" style="animation-delay:1.0s" cx="570" cy="180" r="4.6" fill="none" stroke="#A18CFA" stroke-width="1.6"/>
+<circle class="n" style="animation-delay:1.5s" cx="200" cy="244" r="3.2" fill="#A18CFA"/>
+<circle class="n" style="animation-delay:1.5s" cx="260" cy="244" r="3.2" fill="#A18CFA"/>
+<circle class="n" style="animation-delay:1.5s" cx="320" cy="244" r="3.2" fill="#A18CFA"/>
+<circle class="n" style="animation-delay:1.5s" cx="380" cy="244" r="3.2" fill="#A18CFA"/>
+<circle class="n" style="animation-delay:1.5s" cx="420" cy="244" r="3.2" fill="#A18CFA"/>
+<circle class="n" style="animation-delay:1.5s" cx="480" cy="244" r="3.2" fill="#A18CFA"/>
+<circle class="n" style="animation-delay:1.5s" cx="540" cy="244" r="3.2" fill="#A18CFA"/>
+<circle class="n" style="animation-delay:1.5s" cx="600" cy="244" r="3.2" fill="#A18CFA"/>
+</svg>

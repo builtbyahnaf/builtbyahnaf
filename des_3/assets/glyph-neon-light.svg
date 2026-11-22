@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="72" viewBox="0 0 120 72" role="img">
+<style>.rp{transform-box:fill-box;transform-origin:center;animation:rp 3.6s ease-out infinite;opacity:0}
+@keyframes rp{0%{transform:scale(.2);opacity:.8}100%{transform:scale(1.5);opacity:0}}
+.cur{animation:cur 1.1s steps(1) infinite}@keyframes cur{50%{opacity:0}}
+.bl,.bl2{animation:pong 1.7s linear infinite}.bl2{animation-delay:-.09s}
+@keyframes pong{0%{transform:translate(0,8px)}25%{transform:translate(30px,-12px)}50%{transform:translate(60px,8px)}75%{transform:translate(30px,-12px)}100%{transform:translate(0,8px)}}
+.p1{animation:pa 1.7s ease-in-out infinite alternate}.p2{animation:pa 1.7s ease-in-out infinite alternate-reverse}
+@keyframes pa{from{transform:translateY(-6px)}to{transform:translateY(6px)}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect class="p1" x="18" y="18" width="4" height="36" rx="2" fill="#2F5FD0"/><rect class="p2" x="98" y="18" width="4" height="36" rx="2" fill="#6B4FE0"/><path d="M60 12v48" stroke="#2F5FD0" stroke-width="1" stroke-dasharray="2 4" opacity="0.3"/><circle class="bl2" cx="30" cy="36" r="4" fill="#0F1B33" opacity="0.22"/><circle class="bl" cx="30" cy="36" r="4" fill="#0F1B33"/></svg>

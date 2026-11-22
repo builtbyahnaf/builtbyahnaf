@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="96" viewBox="0 0 800 96" role="img">
+<style>.tw{transform-box:fill-box;transform-origin:center;animation:tw 4s ease-in-out infinite}
+@keyframes tw{0%,100%{transform:scale(.6);opacity:.5}50%{transform:scale(1.2);opacity:1}}
+.ss{animation:ss 9s linear infinite;opacity:0}
+@keyframes ss{0%{transform:translate(0,0);opacity:0}4%{opacity:1}14%{transform:translate(260px,95px);opacity:0}100%{transform:translate(260px,95px);opacity:0}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2F5FD0" stop-opacity="0"/><stop offset="1" stop-color="#0F1B33" stop-opacity="0.9"/></linearGradient></defs>
+<path d="M120 62 L200 34 L285 58 L365 24 L440 50 L525 28 L610 60 L690 36" fill="none" stroke="#2F5FD0" stroke-width="1" opacity="0.22" stroke-dasharray="2 5"/>
+<g transform="translate(120 62)"><path class="tw" style="animation-delay:0.0s" d="M0-7L2.2-2.2 7 0 2.2 2.2 0 7-2.2 2.2-7 0-2.2-2.2Z" transform="scale(0.8)" fill="#2F5FD0"/></g>
+<g transform="translate(200 34)"><path class="tw" style="animation-delay:0.5s" d="M0-7L2.2-2.2 7 0 2.2 2.2 0 7-2.2 2.2-7 0-2.2-2.2Z" transform="scale(0.8)" fill="#6B4FE0"/></g>
+<g transform="translate(285 58)"><path class="tw" style="animation-delay:1.0s" d="M0-7L2.2-2.2 7 0 2.2 2.2 0 7-2.2 2.2-7 0-2.2-2.2Z" transform="scale(0.8)" fill="#2F5FD0"/></g>
+<g transform="translate(365 24)"><path class="tw" style="animation-delay:1.5s" d="M0-7L2.2-2.2 7 0 2.2 2.2 0 7-2.2 2.2-7 0-2.2-2.2Z" transform="scale(0.8)" fill="#6B4FE0"/></g>
+<g transform="translate(440 50)"><path class="tw" style="animation-delay:2.0s" d="M0-7L2.2-2.2 7 0 2.2 2.2 0 7-2.2 2.2-7 0-2.2-2.2Z" transform="scale(0.8)" fill="#2F5FD0"/></g>
+<g transform="translate(525 28)"><path class="tw" style="animation-delay:2.5s" d="M0-7L2.2-2.2 7 0 2.2 2.2 0 7-2.2 2.2-7 0-2.2-2.2Z" transform="scale(0.8)" fill="#6B4FE0"/></g>
+<g transform="translate(610 60)"><path class="tw" style="animation-delay:3.0s" d="M0-7L2.2-2.2 7 0 2.2 2.2 0 7-2.2 2.2-7 0-2.2-2.2Z" transform="scale(0.8)" fill="#2F5FD0"/></g>
+<g transform="translate(690 36)"><path class="tw" style="animation-delay:3.5s" d="M0-7L2.2-2.2 7 0 2.2 2.2 0 7-2.2 2.2-7 0-2.2-2.2Z" transform="scale(0.8)" fill="#6B4FE0"/></g>
+<g transform="translate(60 4) rotate(20)"><g class="ss"><rect width="70" height="1.6" rx="0.8" fill="url(#t)"/></g></g>
+</svg>

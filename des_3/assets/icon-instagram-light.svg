@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" role="img">
+<style>.o{transform-origin:22px 22px;animation:spin 7s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<circle cx="22" cy="22" r="19" fill="none" stroke="#2F5FD0" stroke-opacity="0.35"/>
+<g class="o"><circle cx="41" cy="22" r="2.4" fill="#2F5FD0"/></g>
+<g transform="translate(12 12) scale(1.25)"><rect x="1" y="1" width="14" height="14" rx="4.2" fill="none" stroke="#0F1B33" stroke-width="1.5"/><circle cx="8" cy="8" r="3.2" fill="none" stroke="#0F1B33" stroke-width="1.5"/><circle cx="12" cy="4" r="0.95" fill="#0F1B33"/></g></svg>
